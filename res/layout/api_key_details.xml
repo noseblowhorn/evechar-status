@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/KeyIdLabel" />
+    <EditText
+        android:id="@+id/KeyId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vCodeLabel" />
+    <EditText
+        android:id="@+id/VCode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26sp"
+        android:hint="@string/import_key_qe_code" 
+        android:onClick="ImportFromQRClick"/>
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26sp"
+        android:hint="@string/save_api_key_button" 
+        android:onClick="SaveApiKeyClick"/>
+
+</LinearLayout>

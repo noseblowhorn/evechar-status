@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="KeyIdLabel">Key ID:</string>
+    <string name="vCodeLabel">Verification code:</string>
+    <string name="save_api_key_button">Save key</string>
+    <string name="app_name">EveCharacterStatusAndroid</string>
+    <string name="button_get_characters">Get characters</string>
+    <string name="api_key_list_label">API keys</string>
+    <string name="add_api_key_label">New API key</string>
+    
+    <string name="dialog_choose_action">Choose action</string>
+    <string name="dialog_option_edit">Edit</string>
+    <string name="dialog_option_delete">Delete</string>
+    <string name="import_key_qe_code">Import API key from QR code</string>
+
+</resources>
